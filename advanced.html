@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search Page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <style>
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h1>Advanced Search Page</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Search</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="images.html" class="nav-link">Images Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form action="https://google.com/search">
+                        <div class="form-group">
+                            <label for="all-words">all these words:</label>
+                            <input type="text" class="form-control" id="all-words" name="as_q">
+                        </div>
+                        <div class="form-group">
+                            <label for="exact-word">this exact word or phrase:</label>
+                            <input type="text" class="form-control" id="exact-word" name="as_epq">
+                        </div>
+                        <div class="form-group">
+                            <label for="any-words">any of these words:</label>
+                            <input type="text" class="form-control" id="any-words" name="as_oq">
+                        </div>
+                        <div class="form-group">
+                            <label for="none-words">none of these words:</label>
+                            <input type="text" class="form-control" id="none-words" name="as_eq">
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary text-center">Google Search</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
